@@ -9,7 +9,9 @@ categories: jekyll update
 
 I recently started taking the Practical Deep Learning for Coders course from FastAI. In lesson 0 of this course, Jeremy explains the importance of taking a practical approach of this course, instead of only watching lectures it's important that you start building something from what you learned from very first lecture. So, based on that recommendation, on the first lecture we take a look to some `learners` availables in the FastAI library. These learners are based on common tasks in deep learning like image classification, image segmentation and text classification. 
 
-In this post I will be working on reproducing the vision learner developed in the lecture to classify cats vs no cats in an image, but for a different dataset. 
+In this post I will be working on reproducing the vision learner developed in the lecture to classify cats vs no cats in an image, but for a different dataset. This can be easily done in Kaggle by looking in the dataset section, then you will find filters of common types of dataset, in this case, I'm looking for classification datasets:
+
+[Kaggle Classification datasets](../_site/assets/kaggle_datasets_classification.png)
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
@@ -24,7 +26,7 @@ Jekyll also offers powerful support for code snippets:
 {% highlight python %}
 def print_hi(name)
   print (f"Hi, {name}")
-  
+
 print_hi('Tom')
 #=> prints 'Hi, Tom' to STDOUT.
 {% endhighlight %}
