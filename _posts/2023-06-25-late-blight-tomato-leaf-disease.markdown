@@ -4,9 +4,12 @@ title:  "Late Blight Tomato Leaf Disease Classification using FastAI"
 date:   2023-06-25 20:30:32 -0600
 categories: jekyll update
 ---
-I recently started taking the Practical Deep Learning for Coders course from FastAI. In lesson 0 of this course, Jeremy explains the importance of taking a practical approach of this course, instead of only watching lectures it's important that you start building something from the knowledge you got from very first lecture. So, based on that recommendation, on the first lecture we take a look to some `learners` availables in FastAI. These learners are based on common tasks in deep learning like image classification, image segmentation and text classification. 
 
-In this post I will be working on reproducing the vision learner developed in the lecture to classify cats vs no cats in an image. 
+# Introduction
+
+I recently started taking the Practical Deep Learning for Coders course from FastAI. In lesson 0 of this course, Jeremy explains the importance of taking a practical approach of this course, instead of only watching lectures it's important that you start building something from what you learned from very first lecture. So, based on that recommendation, on the first lecture we take a look to some `learners` availables in the FastAI library. These learners are based on common tasks in deep learning like image classification, image segmentation and text classification. 
+
+In this post I will be working on reproducing the vision learner developed in the lecture to classify cats vs no cats in an image, but for a different dataset. 
 
 You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
 
